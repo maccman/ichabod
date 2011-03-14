@@ -23,9 +23,9 @@ begin
 
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "ichabod"
-    gemspec.summary = "Ichabod wraps JavaScript in a loving MacRuby embrace."
+    gemspec.summary = "Ichabod allows headless JavaScript testing."
     gemspec.homepage = "http://github.com/maccman/ichabod"
-    gemspec.description = "Ichabod wraps JavaScript in a loving MacRuby embrace."
+    gemspec.summary = "Ichabod allows headless JavaScript testing using WebKit from the command line."
     gemspec.license = "MIT"
     gemspec.email = "info@eribium.org"
     gemspec.authors = ["Alex MacCaw"]
