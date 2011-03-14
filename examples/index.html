@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ichabod Test!</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $('#content').append('<div id="hi">Hello world!</div>')
+        $('script').remove()
+        document.title = 'It worked!'
+        
+        Ruby.puts("indeed it worked!");
+        
+        setTimeout(function(){
+          console.log("Exiting");
+          Ichabod.exit();
+        }, 3000)
+      });
+    </script>
+  </head>
+  <body>
+    <div id="content">
+    </div>
+  </body>
+</html>
