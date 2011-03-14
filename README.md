@@ -5,7 +5,7 @@ Run JavaScript tests from the command line using a headless version of WebKit.
 Features:
 
   * [Jasmine](http://pivotal.github.com/jasmine) tests support
-  <!-- * [QUnit](TODO) tests support -->
+  * [QUnit](http://docs.jquery.com/Qunit) tests support
   * Use Ruby methods from JavaScript
 
 ## Prerequisites
@@ -27,7 +27,7 @@ Or, if you're using rvm:
     ichabod http://example.com
     
     ichabod --jasmine http://your-jasmine-test-page.html
-<!-- ichabod --qunit http://your-qunit-test-page.html -->
+    ichabod --qunit http://your-qunit-test-page.html
 
     ichabod --jasmin ./local-qunit-path/index.html
       xxxxxxxxxxxxxoxxxxxxxxxx
