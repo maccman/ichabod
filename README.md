@@ -1,4 +1,4 @@
-= Ichabod
+#Ichabod
 
 Run JavaScript tests from the command line using a headless version of WebKit.
 
@@ -18,7 +18,7 @@ The only prerequisites are OSX and [macruby](http://www.macruby.org).
     ichabod http://example.com
     
     ichabod --jasmine http://your-jasmine-test-page.html
-    <!-- ichabod --qunit http://your-qunit-test-page.html -->
+<!-- ichabod --qunit http://your-qunit-test-page.html -->
 
     ichabod --jasmin ./local-qunit-path/index.html
       xxxxxxxxxxxxxoxxxxxxxxxx
