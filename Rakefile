@@ -1,26 +1,6 @@
 begin
   require 'jeweler'
 
-  # We're not putting VERSION or VERSION.yml in the root,
-  # so we have to help Jeweler find our version.
-  $LOAD_PATH.unshift File.dirname(__FILE__) + '/lib'
-  require 'ichabod/version'
-
-  Ichabod::Version.instance_eval do
-    def refresh
-    end
-  end
-
-  class Jeweler
-    def version_helper
-      Ichabod::Version
-    end
-
-    def version_exists?
-      true
-    end
-  end
-
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "ichabod"
     gemspec.summary = "Ichabod allows headless JavaScript testing."
