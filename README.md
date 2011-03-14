@@ -12,6 +12,15 @@ Features:
 
 The only prerequisites are OSX and [macruby](http://www.macruby.org).
 
+##Installation
+
+    $ macgem install ichabod
+
+Or, if you're using rvm:
+
+    $ rvm use macruby
+    $ gem install ichabod
+
 ## Usage
     
     ichabod ./your/file.html
