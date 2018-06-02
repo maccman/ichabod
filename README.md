@@ -4,7 +4,7 @@ Run JavaScript tests from the command line using a headless version of WebKit.
 
 Features:
 
-  * [Jasmine](http://pivotal.github.com/jasmine) tests support
+  * [Jasmine](https://jasmine.github.io/) tests support
   * [QUnit](http://docs.jquery.com/Qunit) tests support
   * Use Ruby methods from JavaScript
 
